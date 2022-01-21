@@ -1,0 +1,12 @@
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.dropdown-menu {
+    background-color: rgba(141, 116, 116, 0.974);
+}
+

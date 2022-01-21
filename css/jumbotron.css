@@ -1,0 +1,28 @@
+.jumboheader {
+    margin: 45px;
+    color: rgb(104, 2, 2);
+}
+
+.card {
+    position: relative;
+}
+
+.nacard {
+    top: 20px;
+    left: 150px;
+}
+
+.nbcard {
+    top: -355px;
+    left: 540px;
+}
+
+.nccard {
+    top: -748px;
+    left: 915px;
+}
+
+.ndcard {
+    top: -1123px;
+    left: 1280px;
+}
