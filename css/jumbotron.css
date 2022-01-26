@@ -1,89 +1,25 @@
-/* .jumboheader {
-    margin: 45px;
-    color: rgb(104, 2, 2);
-}
-
-.card {
-    position: relative;
-}
-
-.nacard {
-    top: 20px;
-    left: 150px;
-}
-
-.nbcard {
-    top: -355px;
-    left: 540px;
-}
-
-.nccard {
-    top: -748px;
-    left: 915px;
-}
-
-.ndcard {
-    top: -1123px;
-    left: 1280px;
-} */
 .jumbotron {
-    display: flex; /*creates a flex box out of jumbotron section*/
-    justify-content: center; /*Centers content in flexbox*/
+    /* display: flex; 
+    justify-content: center;  */
     flex-wrap: wrap;/*wraps content on page to fit on smaller screens */
-}
-
-.card {
-    background-color: rgb(28, 28, 28);
-    width: 250px;
-    height: 400px;
-    margin: 10px;
-    margin-top: 100px;
-    border-radius: 15px;
-}
-
-.card-image {
-    background-color: red;
-    height: 150px;
-    margin-bottom: 10px;
+    background: url("../assets/ndmiata.jpg");
     background-size: cover;
-    border-radius: 15px 15px 0 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
 }
 
-.card1img {
-    background-image: url("../assets/na.jpg");
+.jumbotron h1, .jumbotron p {
+    color: darkred;
 }
 
-.card2img {
-    background-image: url("../assets/nb.jpg");
+.jumbotron h1 {
+    padding-top: 100px;
+    margin-left: 100px;
+    font-size: 2em;
 }
 
-.card3img {
-    background-image: url("../assets/nc.jpg");
-}
-
-.card4img {
-    background-image: url("../assets/ndmiata.jpg");
-}
-
-.card a {
-    background-color: darkred;
-    color: rgb(0, 0, 0);
-    padding: 15px 20px; /* Changes top/ bottom to 15px and right/left to 20px*/
-    display: block;/*the a tag a block */
-    text-align: center;
-}
-
-.card:hover { /*changes card when pointer is over it*/
-    background-color: rgb(79, 8, 8);
-    cursor: pointer; /*changes cursor to pointer when hovering*/
-    transform: scale(1.05); /*increases card size*/
-    transition: all 1s ease; /*all rules above will transition for in one second with ease*/
-}
-
-.card h2 {
-    color: rgb(199, 198, 198);
-}
-
-.card p {
-    color: rgb(199, 198, 198);
+.jumbotron p {
+    margin-left: 200px;
+    font-size: 1.5em;
 }

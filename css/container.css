@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(28, 28, 28);
+    width: 250px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+
+.card-image {
+    background-color: red;
+    height: 150px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card1img {
+    background-image: url("../assets/na.jpg");
+}
+
+.card2img {
+    background-image: url("../assets/nb.jpg");
+}
+
+.card3img {
+    background-image: url("../assets/nc.jpg");
+}
+
+.card4img {
+    background-image: url("../assets/ndmiata.jpg");
+}
+
+.card a {
+    background-color: darkred;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px; /* Changes top/ bottom to 15px and right/left to 20px*/
+    display: block;/*the a tag a block */
+    text-align: center;
+}
+
+.card:hover { /*changes card when pointer is over it*/
+    background-color: rgb(79, 8, 8);
+    cursor: pointer; /*changes cursor to pointer when hovering*/
+    transform: scale(1.05); /*increases card size*/
+    transition: all 1s ease; /*all rules above will transition for in one second with ease*/
+}
+
+.card h2 {
+    color: rgb(199, 198, 198);
+}
+
+.card p {
+    color: rgb(199, 198, 198);
+}

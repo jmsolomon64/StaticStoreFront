@@ -8,5 +8,6 @@
 
 .dropdown-menu {
     background-color: rgba(141, 116, 116, 0.974);
+    z-index: 2;
 }
 
